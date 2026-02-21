@@ -17,9 +17,7 @@ float distance = 0;
 
 void setup() {
 
-    // TODO 5:
-    // Initialize Serial communication (9600 baud rate)
-
+    Serial.begin(9600);
     // TODO 6:
     // Configure TRIG as OUTPUT
 
