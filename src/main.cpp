@@ -12,11 +12,8 @@
 #define TRIG_PIN 9
 #define ECHO_PIN 10
 
- // TODO 3:
- // Create variable to store duration
-
- // TODO 4:
- // Create variable to store calculated distance
+long duration = 0;
+float distance = 0;
 
 void setup() {
 
