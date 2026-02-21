@@ -18,15 +18,10 @@ float distance = 0;
 void setup() {
 
     Serial.begin(9600);
-    // TODO 6:
-    // Configure TRIG as OUTPUT
-
-    // TODO 7:
-    // Configure ECHO as INPUT
-
-    // TODO 8:
-    // Print system initialization message
-}
+    pinMode(TRIG_PIN, OUTPUT);
+    pinMode(ECHO_PIN, INPUT);
+    Serial.println("Ultrasonic Distance Measurement System");
+    Serial.println("System Initialized...\n");
 
 void loop() {
 
